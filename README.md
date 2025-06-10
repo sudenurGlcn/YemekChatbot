@@ -19,7 +19,7 @@ Chatbot aşağıdaki temel niyetleri (intent) tanıyacak şekilde tasarlanmışt
 Chatbot, kullanıcının yazdığı cümleyi embedding yöntemiyle analiz eder, ardından vektör tabanlı arama ile en yakın intent'i belirler.  
 Elde edilen intent'in response değeri, büyük dil modeline (LLM) bağlamsal bilgi olarak iletilir. LLM, bu bilgiyi kullanarak kullanıcıya doğal ve anlamlı bir yanıt üretir.
 
-![Akis Diyagrami](resim_dosyasi_yolu)
+![Akis Diyagrami](https://github.com/sudenurGlcn/YemekChatbot/blob/main/images/AkisDiyagrami.png)
 ---
 
 ## 🗃️ Veri Seti Oluşturma
@@ -102,8 +102,8 @@ Yapılan test sonuçları, OpenAI GPT (gpt-3.5-turbo) modelinin genel metin üre
 LLM modeli olarak OpenAI GPT, elde edilen yüksek doğruluk ve performans sonuçları nedeniyle tercih edilmiştir.  
 Chatbot’un kullanıcı arayüzü ise Streamlit kütüphanesi kullanılarak geliştirilmiştir.  
 
-![ChatbotArayüz](resim_dosyasi_yolu)
-![ChatbotArayüz](resim_dosyasi_yolu)
+![ChatbotArayüz](https://github.com/sudenurGlcn/YemekChatbot/blob/main/images/Cookish1.jpg)
+![ChatbotArayüz](https://github.com/sudenurGlcn/YemekChatbot/blob/main/images/Cookish2.jpg)
 ### 🚀 Çalıştırma Talimatları
 
 ```bash
